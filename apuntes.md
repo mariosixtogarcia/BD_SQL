@@ -7,6 +7,7 @@
 - [Cláusulas](#cláusulas)
 
   a) [SELECT](#select)
+      i)[AS](#as)
 
 #### Linguaxe e sublinguaxes.
 #### En SQL, que é unha linguaxe de programaxión, existe un único linguaxe, e 6 sublinguaxes, que son: DQL, DML, DDL, DCL, TCL, SCL.
