@@ -92,8 +92,7 @@ Usase para indicar a tabla na que queremos que se busquen os datos.
   * **LIKE:** Serve para buscar datos seguindo un patrón que lle introduzcamos, tendo en conta: % signfica, calquera cantidade de caracteres. E _ significa o mesmo que o porcentaxe, pero sólo **un** carácter.
   * **=:** Serve para que contraste cun valor exacto.
   * **>= <= > >:** Maior igual, menor igual, maior, menor. Serve para contrastar con valores numéricos.
-  * **
-  
+ 
   #### SUBCONSULTAS:
   Dentro de o WHERE, podemos facer outras subconsultas, para sacar un dato contrarrestado con outro, por exemplo.
   
@@ -114,3 +113,11 @@ SELECT population
 FROM world
 WHERE name = 'Germany';
 ```
+
+2.
+```sql
+SELECT name
+FROM world
+WHERE name = 'P%'
+OR name LIKE 'P%';
+   ```
