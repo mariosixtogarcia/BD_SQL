@@ -7,10 +7,15 @@
 - [Cláusulas](#cláusulas)
 
   a) [SELECT](#select)
+  
   b) [FROM](#from)
+ 
   c) [WHERE](#where)
+ 
   d) [GROUP BY](#group-by)
+ 
   e) [HAVING](#having)
+
   f) [ORDER BY](#order-by)
   
  - [Ejemplos](#ejemplos)
@@ -96,7 +101,7 @@ Usase para indicar a tabla na que queremos que se busquen os datos.
 Esta cláusula agrupa os valores da maneira que lle introduzcamos nós, para que non se xeneren errores ao levar a cabo outro tipo de operadores.
 
 ### **HAVING:** 
-Ten un uso similar a WHERE, pero aplicase a un conxunto realizado por un GROPU BY.
+Ten un uso similar a WHERE, pero aplicase a un conxunto realizado por un GROUP BY.
 
 ### **ORDER BY:** 
 Cláusula usada para ordenar os datos, ten que ir seguida de ASC para ordenar de forma ascendente, ou DESC, para descendente.
