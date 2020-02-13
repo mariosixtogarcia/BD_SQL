@@ -34,7 +34,7 @@ ORDER BY ListaColumnas [ ASC / DESC ];
 
 ## CLÁUSULAS:
 
-**SELECT:** Usase para seleccionar os datos que queremos que se mostren.
+### **SELECT:** Usase para seleccionar os datos que queremos que se mostren.
 
 -Dentro da cláusula SELECT podense usar distintos operadores. Entre eles:
 
@@ -51,9 +51,9 @@ ORDER BY ListaColumnas [ ASC / DESC ];
 * **MIN(x):** Devolve o valor mínimo da columna.
 * **AVG(x):** Devolve o valor medio de toda a columna.
 
-**FROM:** Usase para indicar a tabla na que queremos que se busquen os datos.
+### **FROM:** Usase para indicar a tabla na que queremos que se busquen os datos.
 
-**WHERE:** É a clausuala usada para dispoñer as condicións de busqueda, onde lle decimos como queremos que o busque.
+### **WHERE:** É a clausuala usada para dispoñer as condicións de busqueda, onde lle decimos como queremos que o busque.
 
  -Dentro da cláusula WHERE podense usar distintos operadores. Entre eles:
 
@@ -66,13 +66,13 @@ ORDER BY ListaColumnas [ ASC / DESC ];
   * **>= <= > >:** Maior igual, menor igual, maior, menor. Serve para contrastar con valores numéricos.
   * **
   
-**GROUP BY:** Esta cláusula agrupa os valores da maneira que lle introduzcamos nós, para que non se xeneren errores ao levar a cabo outro tipo de operadores.
+### **GROUP BY:** Esta cláusula agrupa os valores da maneira que lle introduzcamos nós, para que non se xeneren errores ao levar a cabo outro tipo de operadores.
 
-**HAVING:** Ten un uso similar a WHERE, pero aplicase a un conxunto realizado por un GROPU BY.
+### **HAVING:** Ten un uso similar a WHERE, pero aplicase a un conxunto realizado por un GROPU BY.
 
-**ORDER BY:** Cláusula usada para ordenar os datos, ten que ir seguida de ASC para ordenar de forma ascendente, ou DESC, para descendente.
+### **ORDER BY:** Cláusula usada para ordenar os datos, ten que ir seguida de ASC para ordenar de forma ascendente, ou DESC, para descendente.
  
-### EJEMPLOS:
+## EJEMPLOS:
 
 1. Este exemplo busca na tabla world, a población do pais entre comillas **simples** neste caso: Germany.
 ```sql
