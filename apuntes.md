@@ -36,6 +36,21 @@ ORDER BY ListaColumnas [ ASC / DESC ];
 
 **SELECT:** Usase para seleccionar os datos que queremos que se mostren.
 
+-Dentro da cláusula SELECT podense usar distintos operadores. Entre eles:
+
+* **AS:** Sirve para renomear o nome das tablas. (Nombre_objeto AS nombre_que_queremos_poner).
+* **REPLACE:** Sirve para reemplazar caracteres.
+* **ROUND:** Fórmula ROUND (X/N,D) Seleccionas X, redondeas por N, con d decimales.
+* **LENGTH:** Serve para sacar o número de letras da palabra que lle tes que introducir entre parenteses.
+* **LEFT(x, n):** Serve para sacar os primeiros n caracteres de x comezando pola esquerda.
+* **RIGHT(x, n):** Mismo funcionamento e fórmula que o LEFT, pero comeza pola dereita.
+* **CONCAT(x, y):**
+* **SUM(x):** Serve para contar todos os valores da consulta.
+* **COUNT(x):** Conta o número de tuplas.
+* **MAX(x):** Devolve o valor máximo da columna.
+* **MIN(x):** Devolve o valor mínimo da columna.
+* **AVG(x):** Devolve o valor medio de toda a columna.
+
 **FROM:** Usase para indicar a tabla na que queremos que se busquen os datos.
 
 **WHERE:** É a clausuala usada para dispoñer as condicións de busqueda, onde lle decimos como queremos que o busque.
@@ -45,10 +60,18 @@ ORDER BY ListaColumnas [ ASC / DESC ];
   * **IN:** Usase no sitio dun OR. En vez de repetir moitas veces (OR, OR, OR), ponse IN e entre parenteses ( 'objeto' , 'objeto' , 'objeto' )
   * **OR:** Utilizado para poder poñer duas condicions, e filtre sempre que pase **unha ou outra**.
   * **AND:** Serve para poñer varias condicións e que sempre se cumplan **todas**.
+  * **BETWEEN:** Serve para elexir valores entre outros dous, para eso temos que usar a fórmula (BETWEEN número1 AND número2).
   * **LIKE:** Serve para buscar datos seguindo un patrón que lle introduzcamos, tendo en conta: % signfica, calquera cantidade de caracteres. E _ significa o mesmo que o porcentaxe, pero sólo **un** carácter.
   * **=:** Serve para que contraste cun valor exacto.
   * **>= <= > >:** Maior igual, menor igual, maior, menor. Serve para contrastar con valores numéricos.
   * **
+  
+**GROUP BY:** Esta cláusula agrupa os valores da maneira que lle introduzcamos nós, para que non se xeneren errores ao levar a cabo outro tipo de operadores.
+
+**HAVING:** Ten un uso similar a WHERE, pero aplicase a un conxunto realizado por un GROPU BY.
+
+**ORDER BY:** Cláusula usada para ordenar os datos, ten que ir seguida de ASC para ordenar de forma ascendente, ou DESC, para descendente.
+ 
 ### EJEMPLOS:
 
 1. Este exemplo busca na tabla world, a población do pais entre comillas **simples** neste caso: Germany.
