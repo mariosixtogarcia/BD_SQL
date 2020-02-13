@@ -5,7 +5,8 @@
 - [Estructura](#A-estructura-que-debemos-seguir-é-a-seguinte)
 - [Importante](#importante)
 - [Cláusulas](#cláusulas)
-a) [SELECT](#select)
+
+  a) [SELECT](#select)
 
 #### Linguaxe e sublinguaxes.
 #### En SQL, que é unha linguaxe de programaxión, existe un único linguaxe, e 6 sublinguaxes, que son: DQL, DML, DDL, DCL, TCL, SCL.
