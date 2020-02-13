@@ -1,9 +1,11 @@
 # SQL
 
 ## ÍNDICE:
-- [Definicion](#Linguaxe-e-sublinguaxes.)
+- [Definicion](#Linguaxe-e-sublinguaxes)
 - [Estructura](#A-estructura-que-debemos-seguir-é-a-seguinte)
-- [IMPORTANTE](#importante)
+- [Importante](#importante)
+- [Cláusulas](#cláusulas)
+a) [SELECT](#select)
 
 #### Linguaxe e sublinguaxes.
 #### En SQL, que é unha linguaxe de programaxión, existe un único linguaxe, e 6 sublinguaxes, que son: DQL, DML, DDL, DCL, TCL, SCL.
