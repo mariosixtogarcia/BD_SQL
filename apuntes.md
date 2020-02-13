@@ -50,7 +50,7 @@ Usase para seleccionar os datos que queremos que se mostren.
 
 -Dentro da cláusula SELECT podense usar distintos operadores. Entre eles:
 
-* **AS:** Sirve para renomear o nome das tablas. (Nombre_objeto AS nombre_que_queremos_poner).
+* ###### **AS:** Sirve para renomear o nome das tablas. (Nombre_objeto AS nombre_que_queremos_poner).
 * **REPLACE:** Sirve para reemplazar caracteres.
 * **ROUND:** Fórmula ROUND (X/N,D) Seleccionas X, redondeas por N, con d decimales.
 * **LENGTH:** Serve para sacar o número de letras da palabra que lle tes que introducir entre parenteses.
