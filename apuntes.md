@@ -40,6 +40,15 @@ ORDER BY ListaColumnas [ ASC / DESC ];
 
 **WHERE:** É a clausuala usada para dispoñer as condicións de busqueda, onde lle decimos como queremos que o busque.
 
+ -Dentro da cláusula WHERE podense usar distintos operadores. Entre eles:
+
+  * **IN:** Usase no sitio dun OR. En vez de repetir moitas veces (OR, OR, OR), ponse IN e entre parenteses ( 'objeto' , 'objeto' , 'objeto' )
+  * **OR:** Utilizado para poder poñer duas condicions, e filtre sempre que pase **unha ou outra**.
+  * **AND:** Serve para poñer varias condicións e que sempre se cumplan **todas**.
+  * **LIKE:** Serve para buscar datos seguindo un patrón que lle introduzcamos, tendo en conta: % signfica, calquera cantidade de caracteres. E _ significa o mesmo que o porcentaxe, pero sólo **un** carácter.
+  * **=:** Serve para que contraste cun valor exacto.
+  * **>= <= > >:** Maior igual, menor igual, maior, menor. Serve para contrastar con valores numéricos.
+  * **
 ### EJEMPLOS:
 
 1. Este exemplo busca na tabla world, a población do pais entre comillas **simples** neste caso: Germany.
