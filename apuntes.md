@@ -1,5 +1,10 @@
 # SQL
-### En SQL, existe un único linguaxe, e 6 sublinguaxes, que son: DQL, DML, DDL, DCL, TCL, SCL.
+
+## ÍNDICE:
+-[Definicion](#Linguaxe-e-sublinguaxes.)
+
+### Linguaxe e sublinguaxes.
+#### En SQL, que é unha linguaxe de programaxión, existe un único linguaxe, e 6 sublinguaxes, que son: DQL, DML, DDL, DCL, TCL, SCL.
 - Los 6 sublenguajes
 DQL (Data Query Language)
 
