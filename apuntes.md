@@ -34,11 +34,11 @@ ORDER BY ListaColumnas [ ASC / DESC ];
 
 ## CLÁUSULAS:
 
-SELECT:Usase para seleccionar os datos que queremos que se mostren.
+**SELECT:** Usase para seleccionar os datos que queremos que se mostren.
 
-FROM: Usase para indicar a tabla na que queremos que se busquen os datos.
+**FROM:** Usase para indicar a tabla na que queremos que se busquen os datos.
 
-WHERE: É a clausuala usada para dispoñer as condicións de busqueda, onde lle decimos como queremos que o busque.
+**WHERE:** É a clausuala usada para dispoñer as condicións de busqueda, onde lle decimos como queremos que o busque.
 
 ### EJEMPLOS:
 
