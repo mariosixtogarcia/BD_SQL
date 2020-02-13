@@ -2,7 +2,7 @@
 
 ## ÍNDICE:
 - [Definicion](#Linguaxe-e-sublinguaxes.)
-- [Estructura](#A-estructura-que-debemos-seguir-é-a-seguinte:)
+- [Estructura](#A-estructura-que-debemos-seguir-é-a-seguinte)
 - [IMPORTANTE](#importante)
 
 #### Linguaxe e sublinguaxes.
