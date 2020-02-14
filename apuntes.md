@@ -114,7 +114,7 @@ FROM world
 WHERE name = 'Germany';
 ```
 
-2. Neste exemplo vemos un patrón 'P%'. Nesta consulta vaise buscar algún nome que comece por P, continuado por unha serie de caracteres.
+2. Neste exemplo vemos un patrón 'P%'. Nesta consulta vaise buscar algún nome que comece por P, continuado por unha serie de caracteres, levado a cabo poloLIKE, xa que para cumplir a primeira condición do WHERE debería haber un país que se chamase P%.
 ```sql
 SELECT name
 FROM world
@@ -127,4 +127,24 @@ SELECT name AS nombre, area
 FROM world
 WHERE area BETWEEN 200000 AND 300000
 ORDER BY area ASC
+```
+
+4. 
+```sql
+SELECT capital
+ REPLACE (capital, 'DF', 'Distrito Federal')
+FROM world
+WHERE name LIKE '%_DF';
+```
+
+5. 
+```sql
+SELECT capital, LENGTH(capital9
+FROM world
+WHERE continent = 'Europe' OR continent = 'Asia';
+```
+6.
+```sql
+SELECT SUM(population)
+FROM world;
 ```
