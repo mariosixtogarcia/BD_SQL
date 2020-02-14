@@ -1,4 +1,4 @@
-# SQL
+#  Apuntes SQL
 
 ## ÍNDICE:
 - [Definicion](#Linguaxe-e-sublinguaxes)
