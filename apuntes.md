@@ -114,10 +114,17 @@ FROM world
 WHERE name = 'Germany';
 ```
 
-2.
+2. Neste exemplo vemos un patrón 'P%'. Nesta consulta vaise buscar algún nome que comece por P, continuado por unha serie de caracteres.
 ```sql
 SELECT name
 FROM world
 WHERE name = 'P%'
 OR name LIKE 'P%';
    ```
+3. Esta consulta filtra a través de un between que a área dos paises mostrados seña maior a 200000 e menos a 300000, e ordene a área de forma ascendente.
+```sql
+SELECT name AS nombre, area
+FROM world
+WHERE area BETWEEN 200000 AND 300000
+ORDER BY area ASC
+```
