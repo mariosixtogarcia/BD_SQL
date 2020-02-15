@@ -77,8 +77,9 @@ Usase para seleccionar os datos que queremos que se mostren.
 ### **FROM:** 
 Usase para indicar a tabla na que queremos que se busquen os datos.
 
- -Dentro do FROM, podemos facer **JOIN** con outras táboas, para poder buscar datos que non están na táboa principal. Para unir táboas é necesario que entre elas exista polo menos 1 dato que esteña nas duas, se non non é posible.A fórmula é:
- táboa1 JOIN táboa2 ON (dato_entáboa1 = dato_entáboa2)
+ -Dentro do FROM, podemos facer **JOIN** / **INNER JOIN** con outras táboas, para poder buscar datos que non están na táboa principal. Para unir táboas é necesario que entre elas exista polo menos 1 dato que esteña nas duas, se non non é posible.A fórmula é:
+ táboa1 JOIN táboa2 ON (dato_entáboa1 = dato_entáboa2).
+ Existe tamén LEFT JOIN e RIGHT JOIN funcionan igual que o JOIN simple, o único que mostra os NULL, da táboa que lle estamos indicando, se os NULL están a esquerda sería LEFT JOIN, e a dereita, RIGHT JOIN.
 
 ### **WHERE:** 
 É a clausuala usada para dispoñer as condicións de busqueda, onde lle decimos como queremos que o busque.
@@ -129,7 +130,7 @@ WHERE area BETWEEN 200000 AND 300000
 ORDER BY area ASC
 ```
 
-4. 
+4. A seguinte consulta mostra a capital que conteña DF, cambiando DF por Distrito Federal.
 ```sql
 SELECT capital
  REPLACE (capital, 'DF', 'Distrito Federal')
@@ -137,14 +138,22 @@ FROM world
 WHERE name LIKE '%_DF';
 ```
 
-5. 
+5. Selecciona rodas as capitales de Europa e Ásia e ordenaas por número ascendente de letras.
 ```sql
 SELECT capital, LENGTH(capital9
 FROM world
 WHERE continent = 'Europe' OR continent = 'Asia';
 ```
-6.
+6. Esta consulta suma toda a poboación da táboa world.
 ```sql
 SELECT SUM(population)
 FROM world;
+```
+7. Nesta consulta existe un exemplo de JOIN.
+Nela búscanse elementos de duas tablas, game e goal. Únense mediante un JOIN, e diselle o que teñen idéntico cun ON seguido dunha igualdade.
+````sql
+SELECT team1, team2, player
+  FROM game JOIN goal 
+    ON (id=matchid)
+WHERE player LIKE 'Mario%'
 ```
